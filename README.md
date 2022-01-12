@@ -1,13 +1,13 @@
-# react-flags
+# react-flag-lib
 
 > Country flags from Flagpedia to use in your React project
 
-[![NPM](https://img.shields.io/npm/v/react-flags.svg)](https://www.npmjs.com/package/react-flags) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-flag-lib.svg)](https://www.npmjs.com/package/react-flag-lib) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-flags
+npm install --save react-flag-lib
 ```
 
 ## Flag Types
@@ -39,7 +39,7 @@ But for the **Flat** type, there are also two different subtypes:
 
 ```tsx
 import React from 'react'
-import { WaveyFlag } from 'react-flags'
+import { WaveyFlag } from 'react-flag-lib'
 
 const App = () => {
   return <WaveyFlag country='tr' fileType='webp' ratio='256x192' />
@@ -57,7 +57,7 @@ Both require 3 attributes:
 
 ```tsx
 import React from 'react'
-import { FixedHeightFlag, FixedWidthFlag } from 'react-flags'
+import { FixedHeightFlag, FixedWidthFlag } from 'react-flag-lib'
 
 const App = () => {
   return (
@@ -78,7 +78,7 @@ SVG Flags require 2 attributes:
 
 ```tsx
 import React from 'react'
-import { SVGFlag } from 'react-flags'
+import { SVGFlag } from 'react-flag-lib'
 
 const App = () => {
   return <SVGFlag country='tr' flagWidth='2560' />

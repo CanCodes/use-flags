@@ -1,10 +1,10 @@
 {
-  "name": "react-flags",
+  "name": "react-flag-lib",
   "version": "1.0.0",
   "description": "Country flags from Flagpedia to use in your React project",
   "author": "CanCodes",
   "license": "MIT",
-  "repository": "CanCodes/react-flags",
+  "repository": "CanCodes/react-flag-lib",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

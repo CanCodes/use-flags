@@ -5,7 +5,7 @@ import {
   FixedHeightFlag,
   SVGFlag,
   FixedWidthFlag
-} from 'react-flags'
+} from 'react-flag-lib'
 const App = () => {
   const country = 'fr'
   return (
