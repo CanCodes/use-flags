@@ -1,6 +1,6 @@
 {
-  "short_name": "react-flag-lib",
-  "name": "react-flag-lib",
+  "short_name": "use-flags",
+  "name": "use-flags",
   "icons": [
     {
       "src": "favicon.ico",

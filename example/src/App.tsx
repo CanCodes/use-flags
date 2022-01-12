@@ -1,11 +1,6 @@
 import React from 'react'
 
-import {
-  WaveyFlag,
-  FixedHeightFlag,
-  SVGFlag,
-  FixedWidthFlag
-} from 'react-flag-lib'
+import { WaveyFlag, FixedHeightFlag, SVGFlag, FixedWidthFlag } from 'use-flags'
 const App = () => {
   const country = 'fr'
   return (
