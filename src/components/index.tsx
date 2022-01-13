@@ -1,4 +1,4 @@
-export { FixedHeightFlag } from './fixedhflag'
-export { FixedWidthFlag } from './fixedwflag'
-export { SVGFlag } from './svgflag'
-export { WaveyFlag } from './waveyflag'
+export * from './fixedhflag'
+export * from './fixedwflag'
+export * from './svgflag'
+export * from './waveyflag'
