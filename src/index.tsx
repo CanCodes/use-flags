@@ -1,6 +1,1 @@
-export {
-  SVGFlag,
-  FixedHeightFlag,
-  FixedWidthFlag,
-  WaveyFlag
-} from './components'
+export * from './components'
