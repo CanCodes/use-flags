@@ -5,9 +5,9 @@ const App = () => {
   const country = 'fr'
   return (
     <div>
-      <WaveyFlag country='cf' fileType='png' ratio='256x192' />
+      <WaveyFlag country='cf' fileType='webp' ratio='256x192' />
       <br />
-      <FixedHeightFlag country={country} fileType='webp' flagHeight='h240' />
+      <FixedHeightFlag country={country} fileType='jpeg' flagHeight='h240' />
       <br />
       <FixedWidthFlag country={country} fileType='webp' flagWidth='w2560' />
       <br />
